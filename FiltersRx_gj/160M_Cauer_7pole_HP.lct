@@ -1,0 +1,43 @@
+Elsie circuit file 712073300
+160 M HP 7 pole Cauer with standard capacitors
+24/11/2016 3:58:38 p.m. 
+* Added information:
+ 
+* Family, order, stages, topology, Cauer:
+ 11  7  7  1 
+* Width, center, Fstop normalized:
+ 1700000  0  1.231884 
+* Apass, Astop:
+ 0  41 
+* Rsource, Rload, Rratio, Rstandard:
+ 50  50  1  50 
+* Qind, Qcap:
+ 140  1000 
+* Gj, Hj:
+ .6070569  0 
+ .155979  1.181697 
+ 1.179221  0 
+ .7758281  .8250641 
+ 1.052401  0 
+ .6402466  .7521213 
+ .2975056  0 
+* Element type, L, Ltolerance, C, Ctolerance
+ 3  0  0  3E-09  0 
+ 6  3.962679E-06  0  1.2E-08  0 
+ 3  0  0  1.6E-09  0 
+ 6  5.705293E-06  0  2.4E-09  0 
+ 3  0  0  1.8E-09  0 
+ 6  6.067168E-06  0  3E-09  0 
+ 3  0  0  6.2E-09  0 
+* Lin or log, Fstart, Fstop, Fstep or NrIntervals:
+ 2  100000  6.01E+07  1000 
+* Graph scales:
+-60  0  0  5E-08  1.6  600  10  6 
+* Limits Y/N:
+N
+* Markers Y/N:
+Y
+* Marker frequencies:
+ 1359000  1800000  3500000  1.4E+07 
+* M-derived zeros Y/N:
+N

@@ -1,0 +1,47 @@
+Elsie circuit file 712073300
+160 M Cauer 5 pole LP filter with E12 caps
+29/04/2017 11:42:40 a.m. 
+* Added information:
+ 
+* Family, order, stages, topology, Cauer:
+ 11  5  5  1 
+* Width, center, Fstop normalized:
+ 2040000  0  1.715686 
+* Apass, Astop:
+ 0  40 
+* Rsource, Rload, Rratio, Rstandard:
+ 50  50  1  50 
+* Qind, Qcap:
+ 120  1000 
+* Gj, Hj:
+ .6463698  0 
+ .1143145  1.169123 
+ 1.342585  0 
+ .347008  .9019648 
+ .4731842  0 
+* Element type, L, Ltolerance, C, Ctolerance
+ 4  0  0  1E-09  0 
+ 7  4.486478E-06  1  1.8E-10  0 
+ 4  0  0  2.1E-09  0 
+ 7  3.397712E-06  1  5.52E-10  0 
+ 4  0  0  7.36E-10  0 
+* Lin or log, Fstart, Fstop, Fstep or NrIntervals:
+ 2  1000000  6E+07  1000 
+* Graph scales:
+-60  0  0  5E-08  1.6  623.02  10  6 
+* Limits Y/N:
+Y
+* Limits shape/start/stop/top/bottom:
+1 limits for transmission plot:
+   6    3500400    4E+07    0   -40 
+0 limits for return plot
+0 limits for transmission angle plot
+0 limits for group delay plot
+0 limits for VSWR plot
+0 limits for input impedance plot
+* Markers Y/N:
+Y
+* Marker frequencies:
+ 1800000  2000000  3500000  5400000 
+* M-derived zeros Y/N:
+N

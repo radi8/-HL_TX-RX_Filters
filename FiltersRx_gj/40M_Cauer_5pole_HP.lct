@@ -1,0 +1,49 @@
+Elsie circuit file 712073300
+40 Metre Cauer 5 pole Hi Pass Filter with Standard Capacitors
+8/03/2017 3:55:35 p.m. 
+* Added information:
+ 
+* Family, order, stages, topology, Cauer:
+ 11  5  5  1 
+* Width, center, Fstop normalized:
+ 6900000  0  1.682927 
+* Apass, Astop:
+ 0  39 
+* Rsource, Rload, Rratio, Rstandard:
+ 50  50  1  50 
+* Qind, Qcap:
+ 140  1000 
+* Gj, Hj:
+ .6433505  0 
+ .1200659  1.163937 
+ 1.335183  0 
+ .3676198  .8856004 
+ .4620265  0 
+* Element type, L, Ltolerance, C, Ctolerance
+ 3  0  0  6.8E-10  0 
+ 6  9.709565E-07  .5  3.9E-09  0 
+ 3  0  0  3.4E-10  0 
+ 6  1.308343E-06  .5  1.22E-09  0 
+ 3  0  0  9.999996E-10  0 
+* Lin or log, Fstart, Fstop, Fstep or NrIntervals:
+ 2  1000000  6E+07  1000 
+* Graph scales:
+-60  0  0  5E-08  1.6  600  10  6 
+* Limits Y/N:
+Y
+* Limits shape/start/stop/top/bottom:
+2 limits for transmission plot:
+   5    7000000    1E+07   -.1   -300 
+   6    1000000    4100000    0   -39 
+0 limits for return plot
+0 limits for transmission angle plot
+0 limits for group delay plot
+1 limits for VSWR plot:
+   6    7000000    6E+07    1E+10    1.1 
+0 limits for input impedance plot
+* Markers Y/N:
+Y
+* Marker frequencies:
+ 3500000  4000000  5000000  7000000  1E+07 
+* M-derived zeros Y/N:
+N

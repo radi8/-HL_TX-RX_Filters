@@ -1,0 +1,39 @@
+Elsie circuit file 712073300
+30 MHz LP Cauer 5 pole filter optimized for 28 MHz harmonic suppression
+6/03/2017 8:18:13 a.m. 
+* Added information:
+ 
+* Family, order, stages, topology, Cauer:
+ 11  5  5  1 
+* Width, center, Fstop normalized:
+ 3E+07  0  1.84 
+* Apass, Astop:
+ 0  45 
+* Rsource, Rload, Rratio, Rstandard:
+ 50  50  1  50 
+* Qind, Qcap:
+ 140  1000 
+* Gj, Hj:
+ .6957463  0 
+ .09429497  1.208433 
+ 1.40676  0 
+ .2756381  .9845958 
+ .5521615  0 
+* Element type, L, Ltolerance, C, Ctolerance
+ 4  0  0  7.8E-11  0 
+ 7  3.207074E-07  0  1E-11  0 
+ 4  0  0  1.5E-10  0 
+ 7  2.54609E-07  0  3E-11  0 
+ 4  0  0  5.6E-11  0 
+* Lin or log, Fstart, Fstop, Fstep or NrIntervals:
+ 2  1000000  2E+08  1000 
+* Graph scales:
+-60  0  0  7.036E-08  1.6  631.46  8  6 
+* Limits Y/N:
+N
+* Markers Y/N:
+Y
+* Marker frequencies:
+ 1E+07  2.8E+07  5.7E+07  8.55E+07 
+* M-derived zeros Y/N:
+N

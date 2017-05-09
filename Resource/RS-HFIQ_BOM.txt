@@ -1,0 +1,37 @@
+Hi Group,
+
+Upon request, Jim WA2EUJ shared the BOM and layout for the new opensource RS-HFIQ. I learned several interesting things. First, he is using standard Bourns and Murata inductors like the filter people are already experimenting with, but also many from Abracon:
+
+IND 15UH 400MA 560 MOHM 	MURATA 	82153C
+IND 390NH 210MA 2.2 OHM 	VISHAY 	IMC0805ERR39J01
+IND 1UH 370MA 1.8 OHM SMD 	ABRACON 	AISC-1008-1R0G-T
+IND 680NH 400MA 1.47 OHM 	ABRACON 	AISC-1008-R68G-T
+IND 270NH 190MA 2 OHM SMD 	MURATA 	LQW2BHNR27J03L
+IND 180NH 250MA 1 OHM SMD 	MURATA 	LQW2BHNR18J03L
+IND 120NH 320MA 400 MOHM 	MURATA 	LQW2BHNR12J03L
+IND FIXED 1.8UH 1.7A 100 MOHM  	WURTH 	7440450018
+IND 6.8UH 200MA 7.7 OHM 	ABRACON 	AISC-1008-6R8J-T
+IND 3.3UH 450MA 1.7 OHM 	ABRACON 	AISC-1008F-3R3J-T
+IND 1.8UH 600MA 840 MOHM 	ABRACON 	AISC-1008F-1R8J-T
+IND 1.2UH 650MA 800 MOHM 	ABRACON 	AISC-1008F-1R2G-T
+IND 560NH 460MA 1.1 OHM 	ABRACON 	AISC-1210-R56J-T
+FERRITE BEAD 1K OHM 500MA 0805 	TDK 	MMZ2012R102A
+IND 100NH 300MA 900 MOHM 	BOURNS 	CE201210-R10J
+IND 270NH 630MA 400 MOHM 	ABRACON 	AISC-1210-R27J-T
+IND 180NH 700MA 300 MOHM 	ABRACON 	AISC-1210-R18J-T
+IND 470NH 490MA 800 MOHM 	ABRACON 	AISC-1210-R47J-T
+
+
+Second, for the 4:1 (I believe) unbalanced-unbalanced transformer on the output of the PA, he is using 
+
+IND ARRAY 2 COIL 4.7UH SMD 	BOURNS 	SRF1260A-4R7Y
+
+
+This is a $1.25 coupled inductor from Mouser that is wired as an unun. I am interested in alternate parts for those who don't want to wind transformers, and this is an interesting way to go for single transistor PAs. I wonder if there are any drawbacks. 3 of these could be used (2 ununs, 1 balun) to support the push-pull amplifier, but at that point a $0.50 bn43-202 is more attractive in my mind.
+
+We've never found an off the shelf 1:1 transformer that could handle the power for use in instrument mode with Jim's opamp design. These coupled inductors may fit the bill. See this and this. I am not an expert on this topic, but would someone with more expertise please comment?
+
+73,
+
+Steve
+KF7O
