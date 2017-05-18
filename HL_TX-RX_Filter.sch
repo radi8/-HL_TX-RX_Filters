@@ -1837,12 +1837,12 @@ $EndComp
 $Comp
 L D D7
 U 1 1 58F5D3D6
-P 3575 600
-F 0 "D7" H 3575 700 50  0000 C CNN
-F 1 "1N4148" H 3625 800 50  0000 C CNN
-F 2 "" H 3575 600 50  0001 C CNN
-F 3 "" H 3575 600 50  0001 C CNN
-	1    3575 600 
+P 3575 900
+F 0 "D7" H 3575 1000 50  0000 C CNN
+F 1 "1N4148" H 3625 1100 50  0000 C CNN
+F 2 "" H 3575 900 50  0001 C CNN
+F 3 "" H 3575 900 50  0001 C CNN
+	1    3575 900 
 	-1   0    0    1   
 $EndComp
 $Comp
@@ -1859,12 +1859,12 @@ $EndComp
 $Comp
 L R R2
 U 1 1 58F5DA9E
-P 3275 600
-F 0 "R2" V 3355 600 50  0000 C CNN
-F 1 "1k" V 3275 600 50  0000 C CNN
-F 2 "" V 3205 600 50  0001 C CNN
-F 3 "" H 3275 600 50  0001 C CNN
-	1    3275 600 
+P 3275 900
+F 0 "R2" V 3355 900 50  0000 C CNN
+F 1 "1k" V 3275 900 50  0000 C CNN
+F 2 "" V 3205 900 50  0001 C CNN
+F 3 "" H 3275 900 50  0001 C CNN
+	1    3275 900 
 	0    1    1    0   
 $EndComp
 $Comp
@@ -1963,11 +1963,11 @@ Text Label 2050 6475 0    60   ~ 0
 160M
 Text Label 2050 5375 0    60   ~ 0
 80M
-Text Label 2425 5025 0    60   ~ 0
+Text Label 2050 4275 0    60   ~ 0
 40M
-Text Label 2325 3925 0    60   ~ 0
+Text Label 2050 3175 0    60   ~ 0
 30/20M
-Text Label 2325 2825 0    60   ~ 0
+Text Label 2050 2075 0    60   ~ 0
 17/15M
 Text Label 1525 4450 2    60   ~ 0
 12/10M
@@ -1977,8 +1977,8 @@ Connection ~ 3275 1125
 Wire Wire Line
 	1025 4950 1950 4950
 Connection ~ 1950 4950
-Text Label 2025 1700 0    60   ~ 0
-Thru_Conection
+Text Label 2050 975  0    60   ~ 0
+Thru_Filter
 $Comp
 L L L24
 U 1 1 59157275
@@ -2177,7 +2177,7 @@ Wire Wire Line
 Wire Wire Line
 	3725 900  3725 600 
 Connection ~ 6800 600 
-Connection ~ 3725 600 
+Connection ~ 3725 900 
 Wire Wire Line
 	9050 5675 9050 5625
 Wire Wire Line
@@ -2837,7 +2837,7 @@ T30
 Text Label 4600 2975 0    60   ~ 0
 T17
 Text Label 4600 1875 0    60   ~ 0
-T-0
+T0
 Entry Wire Line
 	7500 5550 7600 5650
 Entry Wire Line
@@ -2863,7 +2863,7 @@ Wire Wire Line
 Wire Wire Line
 	7300 6050 7500 6050
 Text Label 7300 5550 0    60   ~ 0
-T-0
+T0
 Text Label 7300 5650 0    60   ~ 0
 T17
 Text Label 7300 5750 0    60   ~ 0
@@ -3012,7 +3012,7 @@ Connection ~ 8000 1600
 Wire Wire Line
 	8075 900  7700 900 
 Wire Bus Line
-	7600 1000 7600 4150
+	7600 1000 7600 4350
 Connection ~ 8075 2250
 Text Label 7725 2250 0    60   ~ 0
 R0
@@ -3348,8 +3348,6 @@ Connection ~ 6000 3050
 NoConn ~ 5400 5100
 NoConn ~ 5400 5200
 NoConn ~ 5400 4350
-NoConn ~ 7300 4350
-NoConn ~ 7300 4450
 NoConn ~ 7300 4600
 NoConn ~ 7300 4700
 NoConn ~ 7300 4800
@@ -3362,4 +3360,199 @@ Wire Wire Line
 	7300 5200 7575 5200
 Text Label 7875 5200 0    60   ~ 0
 +5V
+$Comp
+L LED D19
+U 1 1 591E2DFF
+P 2300 7250
+F 0 "D19" H 2300 7350 50  0000 C CNN
+F 1 "LED" H 2300 7150 50  0000 C CNN
+F 2 "" H 2300 7250 50  0001 C CNN
+F 3 "" H 2300 7250 50  0001 C CNN
+	1    2300 7250
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R16
+U 1 1 591E2E05
+P 2600 7250
+F 0 "R16" V 2680 7250 50  0000 C CNN
+F 1 "R" V 2600 7250 50  0000 C CNN
+F 2 "" V 2530 7250 50  0001 C CNN
+F 3 "" H 2600 7250 50  0001 C CNN
+	1    2600 7250
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2150 7250 2150 6925
+Connection ~ 2500 5825
+$Comp
+L LED D23
+U 1 1 591E4FDB
+P 2300 5050
+F 0 "D23" H 2300 5150 50  0000 C CNN
+F 1 "LED" H 2300 4950 50  0000 C CNN
+F 2 "" H 2300 5050 50  0001 C CNN
+F 3 "" H 2300 5050 50  0001 C CNN
+	1    2300 5050
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R20
+U 1 1 591E4FE1
+P 2600 5050
+F 0 "R20" V 2680 5050 50  0000 C CNN
+F 1 "R" V 2600 5050 50  0000 C CNN
+F 2 "" V 2530 5050 50  0001 C CNN
+F 3 "" H 2600 5050 50  0001 C CNN
+	1    2600 5050
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2150 5050 2150 4725
+Wire Wire Line
+	2150 4725 2500 4725
+$Comp
+L LED D22
+U 1 1 591E5768
+P 2300 3950
+F 0 "D22" H 2300 4050 50  0000 C CNN
+F 1 "LED" H 2300 3850 50  0000 C CNN
+F 2 "" H 2300 3950 50  0001 C CNN
+F 3 "" H 2300 3950 50  0001 C CNN
+	1    2300 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R19
+U 1 1 591E576E
+P 2600 3950
+F 0 "R19" V 2680 3950 50  0000 C CNN
+F 1 "R" V 2600 3950 50  0000 C CNN
+F 2 "" V 2530 3950 50  0001 C CNN
+F 3 "" H 2600 3950 50  0001 C CNN
+	1    2600 3950
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2150 3950 2150 3625
+Wire Wire Line
+	2150 3625 2500 3625
+Connection ~ 2500 4725
+Connection ~ 2750 5050
+Connection ~ 2750 3950
+Connection ~ 2500 3625
+$Comp
+L LED D21
+U 1 1 591E61DA
+P 2300 2850
+F 0 "D21" H 2300 2950 50  0000 C CNN
+F 1 "LED" H 2300 2750 50  0000 C CNN
+F 2 "" H 2300 2850 50  0001 C CNN
+F 3 "" H 2300 2850 50  0001 C CNN
+	1    2300 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R18
+U 1 1 591E61E0
+P 2600 2850
+F 0 "R18" V 2680 2850 50  0000 C CNN
+F 1 "R" V 2600 2850 50  0000 C CNN
+F 2 "" V 2530 2850 50  0001 C CNN
+F 3 "" H 2600 2850 50  0001 C CNN
+	1    2600 2850
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2150 2850 2150 2525
+Connection ~ 2750 2850
+Wire Wire Line
+	2150 2525 2500 2525
+Connection ~ 2500 2525
+$Comp
+L LED D20
+U 1 1 591E69F4
+P 2300 1450
+F 0 "D20" H 2300 1550 50  0000 C CNN
+F 1 "LED" H 2300 1350 50  0000 C CNN
+F 2 "" H 2300 1450 50  0001 C CNN
+F 3 "" H 2300 1450 50  0001 C CNN
+	1    2300 1450
+	1    0    0    1   
+$EndComp
+$Comp
+L R R17
+U 1 1 591E69FA
+P 2600 1450
+F 0 "R17" V 2680 1450 50  0000 C CNN
+F 1 "R" V 2600 1450 50  0000 C CNN
+F 2 "" V 2530 1450 50  0001 C CNN
+F 3 "" H 2600 1450 50  0001 C CNN
+	1    2600 1450
+	0    1    1    0   
+$EndComp
+$Comp
+L GND #PWR062
+U 1 1 591E6B51
+P 2125 1650
+F 0 "#PWR062" H 2125 1400 50  0001 C CNN
+F 1 "GND" H 2125 1500 50  0000 C CNN
+F 2 "" H 2125 1650 50  0001 C CNN
+F 3 "" H 2125 1650 50  0001 C CNN
+	1    2125 1650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2150 1450 2125 1450
+Wire Wire Line
+	2125 1450 2125 1650
+Connection ~ 2750 1450
+Wire Wire Line
+	7300 4350 7500 4350
+Entry Wire Line
+	7500 4350 7600 4250
+Wire Wire Line
+	7300 4450 7500 4450
+Entry Wire Line
+	7500 4450 7600 4350
+Text Label 7300 4350 0    60   ~ 0
+Tptt
+Text Label 7300 4450 0    60   ~ 0
+Rptt
+Wire Wire Line
+	7025 2225 6950 2225
+Wire Wire Line
+	6950 2225 6950 2575
+Wire Wire Line
+	5650 2000 5600 2000
+Wire Wire Line
+	5600 2000 5600 2575
+Text Label 5600 2575 0    60   ~ 0
+Tptt
+Text Label 6950 2575 0    60   ~ 0
+Rptt
+NoConn ~ 5350 2200
+$Comp
+L +12V #PWR063
+U 1 1 591EE3DA
+P 2900 900
+F 0 "#PWR063" H 2900 750 50  0001 C CNN
+F 1 "+12V" H 2900 1040 50  0000 C CNN
+F 2 "" H 2900 900 50  0001 C CNN
+F 3 "" H 2900 900 50  0001 C CNN
+	1    2900 900 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2900 900  3125 900 
+Entry Bus Bus
+	7500 2675 7600 2775
+Wire Bus Line
+	5700 2675 7500 2675
+Entry Wire Line
+	6950 2575 7050 2675
+Entry Wire Line
+	5600 2575 5700 2675
+Text Label 6950 3525 0    60   ~ 0
+MOSI
 $EndSCHEMATC
