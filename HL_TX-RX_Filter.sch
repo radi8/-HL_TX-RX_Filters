@@ -2787,7 +2787,7 @@ Text GLabel 9725 1900 2    60   Input ~ 0
 Rx_In
 Text Label 8900 1325 2    60   ~ 0
 Rx_Flooring_Filter
-Text Label 9025 1775 2    60   ~ 0
+Text Label 9050 1775 2    60   ~ 0
 Thru_Filter
 Text Label 10400 1350 0    60   ~ 0
 160M

@@ -1837,12 +1837,12 @@ $EndComp
 $Comp
 L D D7
 U 1 1 58F5D3D6
-P 3575 600
-F 0 "D7" H 3575 700 50  0000 C CNN
-F 1 "1N4148" H 3625 800 50  0000 C CNN
-F 2 "" H 3575 600 50  0001 C CNN
-F 3 "" H 3575 600 50  0001 C CNN
-	1    3575 600 
+P 3575 900
+F 0 "D7" H 3575 1000 50  0000 C CNN
+F 1 "1N4148" H 3625 1100 50  0000 C CNN
+F 2 "" H 3575 900 50  0001 C CNN
+F 3 "" H 3575 900 50  0001 C CNN
+	1    3575 900 
 	-1   0    0    1   
 $EndComp
 $Comp
@@ -1859,12 +1859,12 @@ $EndComp
 $Comp
 L R R2
 U 1 1 58F5DA9E
-P 3275 600
-F 0 "R2" V 3355 600 50  0000 C CNN
-F 1 "1k" V 3275 600 50  0000 C CNN
-F 2 "" V 3205 600 50  0001 C CNN
-F 3 "" H 3275 600 50  0001 C CNN
-	1    3275 600 
+P 3275 900
+F 0 "R2" V 3355 900 50  0000 C CNN
+F 1 "1k" V 3275 900 50  0000 C CNN
+F 2 "" V 3205 900 50  0001 C CNN
+F 3 "" H 3275 900 50  0001 C CNN
+	1    3275 900 
 	0    1    1    0   
 $EndComp
 $Comp
@@ -1978,7 +1978,7 @@ Wire Wire Line
 	1025 4950 1950 4950
 Connection ~ 1950 4950
 Text Label 2050 975  0    60   ~ 0
-Thru_Conection
+Thru_Filter
 $Comp
 L L L24
 U 1 1 59157275
@@ -2169,15 +2169,15 @@ Wire Bus Line
 Wire Bus Line
 	6800 7650 6800 6350
 Wire Bus Line
-	7600 6350 6800 6350
+	6800 6350 7600 6350
 Wire Bus Line
-	7600 5650 7600 6350
+	7600 6350 7600 5650
 Wire Wire Line
 	4575 900  3725 900 
 Wire Wire Line
 	3725 900  3725 600 
 Connection ~ 6800 600 
-Connection ~ 3725 600 
+Connection ~ 3725 900 
 Wire Wire Line
 	9050 5675 9050 5625
 Wire Wire Line
@@ -2837,7 +2837,7 @@ T30
 Text Label 4600 2975 0    60   ~ 0
 T17
 Text Label 4600 1875 0    60   ~ 0
-T-0
+T0
 Entry Wire Line
 	7500 5550 7600 5650
 Entry Wire Line
@@ -2863,7 +2863,7 @@ Wire Wire Line
 Wire Wire Line
 	7300 6050 7500 6050
 Text Label 7300 5550 0    60   ~ 0
-T-0
+T0
 Text Label 7300 5650 0    60   ~ 0
 T17
 Text Label 7300 5750 0    60   ~ 0
@@ -3012,7 +3012,7 @@ Connection ~ 8000 1600
 Wire Wire Line
 	8075 900  7700 900 
 Wire Bus Line
-	7600 1000 7600 4150
+	7600 1000 7600 4350
 Connection ~ 8075 2250
 Text Label 7725 2250 0    60   ~ 0
 R0
@@ -3348,8 +3348,6 @@ Connection ~ 6000 3050
 NoConn ~ 5400 5100
 NoConn ~ 5400 5200
 NoConn ~ 5400 4350
-NoConn ~ 7300 4350
-NoConn ~ 7300 4450
 NoConn ~ 7300 4600
 NoConn ~ 7300 4700
 NoConn ~ 7300 4800
@@ -3509,4 +3507,52 @@ Wire Wire Line
 Wire Wire Line
 	2125 1450 2125 1650
 Connection ~ 2750 1450
+Wire Wire Line
+	7300 4350 7500 4350
+Entry Wire Line
+	7500 4350 7600 4250
+Wire Wire Line
+	7300 4450 7500 4450
+Entry Wire Line
+	7500 4450 7600 4350
+Text Label 7300 4350 0    60   ~ 0
+Tptt
+Text Label 7300 4450 0    60   ~ 0
+Rptt
+Wire Wire Line
+	7025 2225 6950 2225
+Wire Wire Line
+	6950 2225 6950 2575
+Wire Wire Line
+	5650 2000 5600 2000
+Wire Wire Line
+	5600 2000 5600 2575
+Text Label 5600 2575 0    60   ~ 0
+Tptt
+Text Label 6950 2575 0    60   ~ 0
+Rptt
+NoConn ~ 5350 2200
+$Comp
+L +12V #PWR063
+U 1 1 591EE3DA
+P 2900 900
+F 0 "#PWR063" H 2900 750 50  0001 C CNN
+F 1 "+12V" H 2900 1040 50  0000 C CNN
+F 2 "" H 2900 900 50  0001 C CNN
+F 3 "" H 2900 900 50  0001 C CNN
+	1    2900 900 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2900 900  3125 900 
+Entry Bus Bus
+	7500 2675 7600 2775
+Wire Bus Line
+	5700 2675 7500 2675
+Entry Wire Line
+	6950 2575 7050 2675
+Entry Wire Line
+	5600 2575 5700 2675
+Text Label 6950 3525 0    60   ~ 0
+MOSI
 $EndSCHEMATC
