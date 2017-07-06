@@ -35,10 +35,10 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title ""
-Date ""
-Rev ""
-Comp ""
+Title "Hermes-Lite Tx/Rx Filter"
+Date "2017-07-06"
+Rev "1.0"
+Comp "ZL2APV Graeme Jury"
 Comment1 ""
 Comment2 ""
 Comment3 ""
@@ -2787,7 +2787,7 @@ Text GLabel 9725 1900 2    60   Input ~ 0
 Rx_In
 Text Label 8900 1325 2    60   ~ 0
 Rx_Flooring_Filter
-Text Label 9025 1775 2    60   ~ 0
+Text Label 9050 1775 2    60   ~ 0
 Thru_Filter
 Text Label 10400 1350 0    60   ~ 0
 160M
@@ -3214,7 +3214,7 @@ Text GLabel 5225 3275 1    60   Input ~ 0
 Wire Wire Line
 	5400 3050 6800 3050
 Text Label 6600 3050 0    60   ~ 0
-+5V
++3v3
 $Comp
 L C C64
 U 1 1 591F4C4D
@@ -3282,24 +3282,11 @@ F 3 "" H 6300 3350 50  0001 C CNN
 	1    6300 3350
 	1    0    0    -1  
 $EndComp
-$Comp
-L D_Schottky D18
-U 1 1 591F6D97
-P 5225 3825
-F 0 "D18" H 5225 3925 50  0000 C CNN
-F 1 "D_Schottky" H 5225 3725 50  0000 C CNN
-F 2 "" H 5225 3825 50  0001 C CNN
-F 3 "" H 5225 3825 50  0001 C CNN
-	1    5225 3825
-	0    -1   -1   0   
-$EndComp
 Wire Wire Line
 	5400 4050 5225 4050
-Wire Wire Line
-	5225 4050 5225 3975
 Connection ~ 5400 4050
 Wire Wire Line
-	5225 3275 5225 3675
+	5225 4050 5225 3275
 $Comp
 L LED D17
 U 1 1 591F8C67
@@ -3331,18 +3318,6 @@ Connection ~ 2750 7250
 Wire Wire Line
 	2150 5825 2500 5825
 Connection ~ 2750 6150
-$Comp
-L PWR_FLAG #FLG061
-U 1 1 591FBCEB
-P 6500 3050
-F 0 "#FLG061" H 6500 3125 50  0001 C CNN
-F 1 "PWR_FLAG" H 6500 3200 50  0000 C CNN
-F 2 "" H 6500 3050 50  0001 C CNN
-F 3 "" H 6500 3050 50  0001 C CNN
-	1    6500 3050
-	1    0    0    -1  
-$EndComp
-Connection ~ 6500 3050
 Connection ~ 6300 3050
 Connection ~ 6000 3050
 NoConn ~ 5400 5100
@@ -3358,8 +3333,6 @@ NoConn ~ 7300 5350
 NoConn ~ 7300 5450
 Wire Wire Line
 	7300 5200 7575 5200
-Text Label 7875 5200 0    60   ~ 0
-+5V
 $Comp
 L LED D19
 U 1 1 591E2DFF
@@ -3492,10 +3465,10 @@ F 3 "" H 2600 1450 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L GND #PWR062
+L GND #PWR061
 U 1 1 591E6B51
 P 2125 1650
-F 0 "#PWR062" H 2125 1400 50  0001 C CNN
+F 0 "#PWR061" H 2125 1400 50  0001 C CNN
 F 1 "GND" H 2125 1500 50  0000 C CNN
 F 2 "" H 2125 1650 50  0001 C CNN
 F 3 "" H 2125 1650 50  0001 C CNN
@@ -3533,10 +3506,10 @@ Text Label 6950 2575 0    60   ~ 0
 Rptt
 NoConn ~ 5350 2200
 $Comp
-L +12V #PWR063
+L +12V #PWR062
 U 1 1 591EE3DA
 P 2900 900
-F 0 "#PWR063" H 2900 750 50  0001 C CNN
+F 0 "#PWR062" H 2900 750 50  0001 C CNN
 F 1 "+12V" H 2900 1040 50  0000 C CNN
 F 2 "" H 2900 900 50  0001 C CNN
 F 3 "" H 2900 900 50  0001 C CNN
@@ -3553,6 +3526,10 @@ Entry Wire Line
 	6950 2575 7050 2675
 Entry Wire Line
 	5600 2575 5700 2675
-Text Label 6950 3525 0    60   ~ 0
+Text Label 7650 3450 0    60   ~ 0
 MOSI
+Text GLabel 7875 5000 1    60   Input ~ 0
+3V3
+Wire Wire Line
+	7875 5000 7875 5200
 $EndSCHEMATC
