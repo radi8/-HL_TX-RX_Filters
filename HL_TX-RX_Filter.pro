@@ -1,4 +1,4 @@
-update=Wed 05 Jul 2017 23:20:40 NZST
+update=Sat 08 Jul 2017 08:02:30 NZST
 version=1
 last_client=kicad
 [pcbnew]
@@ -61,7 +61,7 @@ LibName29=valves
 LibName30=/home/gvj/Kicad/Libraries/relays_G/relays_G
 [schematic_editor]
 version=1
-PageLayoutDescrFile=
+PageLayoutDescrFile=Page.kicad_wks
 PlotDirectoryName=
 SubpartIdSeparator=0
 SubpartFirstId=65
