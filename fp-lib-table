@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name Inductors)(type KiCad)(uri /home/gvj/Kicad/Libraries/Inductors/Inductors.pretty)(options "")(descr ""))
+)
