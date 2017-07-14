@@ -207,7 +207,7 @@ F 1 "28t" H 9075 950 50  0000 C CNN
 F 2 "Inductors:Toroid_T37_Vertical" H 8975 950 50  0001 C CNN
 F 3 "" H 8975 950 50  0001 C CNN
 	1    8975 950 
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L C C41
@@ -273,7 +273,7 @@ F 1 "10t" V 9500 6050 50  0000 C CNN
 F 2 "Inductors:Toroid_T37_Vertical" H 9425 6050 50  0001 C CNN
 F 3 "" H 9425 6050 50  0001 C CNN
 	1    9425 6050
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L L L35
@@ -429,7 +429,7 @@ F 1 "39t" V 2850 6625 50  0000 C CNN
 F 2 "Inductors:Toroid_T37_Vertical" H 2775 6625 50  0001 C CNN
 F 3 "" H 2775 6625 50  0001 C CNN
 	1    2775 6625
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L C C20
@@ -601,8 +601,8 @@ L L L18
 U 1 1 58EF1FE7
 P 3750 5525
 F 0 "L18" V 3700 5525 50  0000 C CNN
-F 1 "L" V 3825 5525 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch3.96mm_Friction_Lock" H 3750 5525 50  0001 C CNN
+F 1 "19t" V 3825 5525 50  0000 C CNN
+F 2 "Inductors:Toroid_T37_Vertical" H 3750 5525 50  0001 C CNN
 F 3 "" H 3750 5525 50  0001 C CNN
 	1    3750 5525
 	0    -1   -1   0   
@@ -645,11 +645,11 @@ L L L7
 U 1 1 58EF2009
 P 2775 5525
 F 0 "L7" V 2725 5525 50  0000 C CNN
-F 1 "L" V 2850 5525 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch3.96mm_Friction_Lock" H 2775 5525 50  0001 C CNN
+F 1 "22t" V 2850 5525 50  0000 C CNN
+F 2 "Inductors:Toroid_T37_Vertical" H 2775 5525 50  0001 C CNN
 F 3 "" H 2775 5525 50  0001 C CNN
 	1    2775 5525
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L C C19
@@ -825,7 +825,7 @@ F 1 "18t" V 2850 4425 50  0000 C CNN
 F 2 "Inductors:Toroid_T37_Vertical" H 2775 4425 50  0001 C CNN
 F 3 "" H 2775 4425 50  0001 C CNN
 	1    2775 4425
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L C C18
@@ -1001,7 +1001,7 @@ F 1 "15t" V 2850 3325 50  0000 C CNN
 F 2 "Inductors:Toroid_T37_Vertical" H 2775 3325 50  0001 C CNN
 F 3 "" H 2775 3325 50  0001 C CNN
 	1    2775 3325
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L C C17
@@ -1177,7 +1177,7 @@ F 1 "12t" V 2850 2225 50  0000 C CNN
 F 2 "Inductors:Toroid_T37_Vertical" H 2775 2225 50  0001 C CNN
 F 3 "" H 2775 2225 50  0001 C CNN
 	1    2775 2225
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L C C16
@@ -1753,7 +1753,7 @@ F 1 "13t" V 9500 5000 50  0000 C CNN
 F 2 "Inductors:Toroid_T37_Vertical" H 9425 5000 50  0001 C CNN
 F 3 "" H 9425 5000 50  0001 C CNN
 	1    9425 5000
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L L L34
@@ -1898,7 +1898,7 @@ F 1 "14t" V 9500 3950 50  0000 C CNN
 F 2 "Inductors:Toroid_T37_Vertical" H 9425 3950 50  0001 C CNN
 F 3 "" H 9425 3950 50  0001 C CNN
 	1    9425 3950
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L L L33
@@ -2032,7 +2032,7 @@ F 1 "20t" V 9500 2900 50  0000 C CNN
 F 2 "Inductors:Toroid_T37_Vertical" H 9425 2900 50  0001 C CNN
 F 3 "" H 9425 2900 50  0001 C CNN
 	1    9425 2900
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L L L32
@@ -2444,12 +2444,12 @@ $EndComp
 $Comp
 L R R21
 U 1 1 591F094F
-P 7725 5200
-F 0 "R21" V 7805 5200 50  0000 C CNN
-F 1 "R" V 7725 5200 50  0000 C CNN
-F 2 "Resistors_SMD:R_1206_HandSoldering" V 7655 5200 50  0001 C CNN
-F 3 "" H 7725 5200 50  0001 C CNN
-	1    7725 5200
+P 7750 5300
+F 0 "R21" V 7830 5300 50  0000 C CNN
+F 1 "10k" V 7750 5300 50  0000 C CNN
+F 2 "Resistors_SMD:R_1206_HandSoldering" V 7680 5300 50  0001 C CNN
+F 3 "" H 7750 5300 50  0001 C CNN
+	1    7750 5300
 	0    1    1    0   
 $EndComp
 $Comp
@@ -2495,7 +2495,7 @@ U 1 1 591F51DF
 P 6000 3200
 F 0 "C35" H 6025 3300 50  0000 L CNN
 F 1 "4.7u" H 6025 3100 50  0000 L CNN
-F 2 "Capacitors_ThroughHole:C_Radial_D14_L25_P5" H 6000 3200 50  0001 C CNN
+F 2 "Capacitors_ThroughHole:C_Radial_D5_L11_P2" H 6000 3200 50  0001 C CNN
 F 3 "" H 6000 3200 50  0001 C CNN
 	1    6000 3200
 	1    0    0    -1  
@@ -2506,7 +2506,7 @@ U 1 1 591F53E3
 P 6300 3200
 F 0 "C37" H 6325 3300 50  0000 L CNN
 F 1 "4.7u" H 6325 3100 50  0000 L CNN
-F 2 "Capacitors_ThroughHole:C_Radial_D14_L25_P5" H 6300 3200 50  0001 C CNN
+F 2 "Capacitors_ThroughHole:C_Radial_D5_L11_P2" H 6300 3200 50  0001 C CNN
 F 3 "" H 6300 3200 50  0001 C CNN
 	1    6300 3200
 	1    0    0    -1  
@@ -2558,12 +2558,6 @@ $EndComp
 NoConn ~ 5400 5100
 NoConn ~ 5400 5200
 NoConn ~ 5400 4350
-NoConn ~ 7300 4600
-NoConn ~ 7300 4700
-NoConn ~ 7300 4800
-NoConn ~ 7300 4900
-NoConn ~ 7300 5000
-NoConn ~ 7300 5100
 NoConn ~ 7300 5350
 NoConn ~ 7300 5450
 $Comp
@@ -2718,7 +2712,7 @@ Entry Wire Line
 	5600 2575 5700 2675
 Text Label 7650 3450 0    60   ~ 0
 MOSI
-Text GLabel 7875 5000 1    60   Input ~ 0
+Text GLabel 7900 5400 3    60   Input ~ 0
 3V3
 Text Label 3100 2175 0    60   ~ 0
 T37-6
@@ -2775,10 +2769,10 @@ F 3 "" H 5075 2275 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_01X02 J4
+L CONN_01X02 J6
 U 1 1 596713D0
 P 8150 3100
-F 0 "J4" V 8150 3250 50  0000 C CNN
+F 0 "J6" V 8150 3250 50  0000 C CNN
 F 1 "To Rx in" V 8250 3100 50  0000 C CNN
 F 2 "Pin_Headers:Pin_Header_Straight_1x02" H 8150 3100 50  0001 C CNN
 F 3 "" H 8150 3100 50  0001 C CNN
@@ -3610,7 +3604,7 @@ Connection ~ 2750 6150
 Connection ~ 6300 3050
 Connection ~ 6000 3050
 Wire Wire Line
-	7300 5200 7575 5200
+	7300 5200 7600 5200
 Wire Wire Line
 	2150 7250 2150 6925
 Connection ~ 2500 5825
@@ -3654,7 +3648,7 @@ Wire Wire Line
 Wire Bus Line
 	5700 2675 7500 2675
 Wire Wire Line
-	7875 5000 7875 5200
+	7900 5400 7900 5300
 Wire Wire Line
 	1125 2325 1325 2325
 Wire Wire Line
@@ -3823,4 +3817,47 @@ Wire Wire Line
 Wire Wire Line
 	5825 2475 5600 2475
 Connection ~ 5600 2475
+$Comp
+L CONN_01X02 J5
+U 1 1 5967F9A2
+P 7900 5050
+F 0 "J5" H 7900 5200 50  0000 C CNN
+F 1 "SCL SDA" V 8000 5050 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02" H 7900 5050 50  0001 C CNN
+F 3 "" H 7900 5050 50  0001 C CNN
+	1    7900 5050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7300 5000 7700 5000
+Wire Wire Line
+	7300 5100 7700 5100
+$Comp
+L CONN_01X04 J4
+U 1 1 596806D9
+P 7575 4750
+F 0 "J4" H 7575 5000 50  0000 C CNN
+F 1 "Data In" V 7675 4750 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x04" H 7575 4750 50  0001 C CNN
+F 3 "" H 7575 4750 50  0001 C CNN
+	1    7575 4750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7300 4600 7375 4600
+Wire Wire Line
+	7300 4700 7375 4700
+Wire Wire Line
+	7300 4800 7375 4800
+Wire Wire Line
+	7300 4900 7375 4900
+Wire Wire Line
+	7600 5200 7600 5300
+Connection ~ 8525 6150
+Connection ~ 8525 5950
+Connection ~ 8525 5100
+Connection ~ 8525 4900
+Connection ~ 8525 4050
+Connection ~ 8525 3850
+Connection ~ 8525 2800
 $EndSCHEMATC
