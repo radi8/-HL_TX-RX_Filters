@@ -1,4 +1,4 @@
-update=Sun 16 Jul 2017 21:25:05 NZST
+update=Mon 17 Jul 2017 11:33:20 NZST
 version=1
 last_client=kicad
 [pcbnew]
@@ -37,7 +37,7 @@ SpiceUseNetNumbers=0
 LabSize=60
 [eeschema]
 version=1
-LibDir=
+LibDir=/home/gvj/kicad_sources/gj-repos/kicad-library/library;/home/gvj/kicad_sources/gj-repos/kicad-library/template
 [eeschema/libraries]
 LibName1=power
 LibName2=device
