@@ -513,7 +513,7 @@ U 1 1 58EEEDBF
 P 3275 6775
 F 0 "L14" V 3225 6775 50  0000 C CNN
 F 1 "L" V 3350 6775 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch3.96mm_Friction_Lock" H 3275 6775 50  0001 C CNN
+F 2 "Inductors_G:BalunCoreChoke" H 3275 6775 50  0001 C CNN
 F 3 "" H 3275 6775 50  0001 C CNN
 	1    3275 6775
 	1    0    0    -1  
@@ -579,7 +579,7 @@ U 1 1 58EF009D
 P 1950 7150
 F 0 "L3" V 1900 7150 50  0000 C CNN
 F 1 "L" V 2025 7150 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch3.96mm_Friction_Lock" H 1950 7150 50  0001 C CNN
+F 2 "Inductors_G:BalunCoreChoke" H 1950 7150 50  0001 C CNN
 F 3 "" H 1950 7150 50  0001 C CNN
 	1    1950 7150
 	1    0    0    -1  
@@ -590,7 +590,7 @@ U 1 1 58EF021D
 P 4550 7150
 F 0 "L20" V 4500 7150 50  0000 C CNN
 F 1 "L" V 4625 7150 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch3.96mm_Friction_Lock" H 4550 7150 50  0001 C CNN
+F 2 "Inductors_G:BalunCoreChoke" H 4550 7150 50  0001 C CNN
 F 3 "" H 4550 7150 50  0001 C CNN
 	1    4550 7150
 	1    0    0    -1  
@@ -733,7 +733,7 @@ U 1 1 58EF2040
 P 3275 5675
 F 0 "L13" V 3225 5675 50  0000 C CNN
 F 1 "L" V 3350 5675 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch3.96mm_Friction_Lock" H 3275 5675 50  0001 C CNN
+F 2 "Inductors_G:BalunCoreChoke" H 3275 5675 50  0001 C CNN
 F 3 "" H 3275 5675 50  0001 C CNN
 	1    3275 5675
 	1    0    0    -1  
@@ -909,7 +909,7 @@ U 1 1 58EF2C0F
 P 3275 4575
 F 0 "L12" V 3225 4575 50  0000 C CNN
 F 1 "L" V 3350 4575 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch3.96mm_Friction_Lock" H 3275 4575 50  0001 C CNN
+F 2 "Inductors_G:BalunCoreChoke" H 3275 4575 50  0001 C CNN
 F 3 "" H 3275 4575 50  0001 C CNN
 	1    3275 4575
 	1    0    0    -1  
@@ -1085,7 +1085,7 @@ U 1 1 58EF45E8
 P 3275 3475
 F 0 "L11" V 3225 3475 50  0000 C CNN
 F 1 "L" V 3350 3475 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch3.96mm_Friction_Lock" H 3275 3475 50  0001 C CNN
+F 2 "Inductors_G:BalunCoreChoke" H 3275 3475 50  0001 C CNN
 F 3 "" H 3275 3475 50  0001 C CNN
 	1    3275 3475
 	1    0    0    -1  
@@ -1261,7 +1261,7 @@ U 1 1 58EF6AE3
 P 3275 2375
 F 0 "L10" V 3225 2375 50  0000 C CNN
 F 1 "Choke" V 3350 2375 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch3.96mm_Friction_Lock" H 3275 2375 50  0001 C CNN
+F 2 "Inductors_G:BalunCoreChoke" H 3275 2375 50  0001 C CNN
 F 3 "" H 3275 2375 50  0001 C CNN
 	1    3275 2375
 	1    0    0    -1  
@@ -1437,7 +1437,7 @@ U 1 1 58F03CDB
 P 3275 1275
 F 0 "L9" V 3225 1275 50  0000 C CNN
 F 1 "L" V 3350 1275 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch3.96mm_Friction_Lock" H 3275 1275 50  0001 C CNN
+F 2 "Inductors_G:BalunCoreChoke" H 3275 1275 50  0001 C CNN
 F 3 "" H 3275 1275 50  0001 C CNN
 	1    3275 1275
 	1    0    0    -1  
@@ -1583,7 +1583,7 @@ U 1 1 59157275
 P 7000 1575
 F 0 "L24" V 7075 1675 50  0000 C CNN
 F 1 "Choke" V 6925 1600 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch3.96mm_Friction_Lock" H 7000 1575 50  0001 C CNN
+F 2 "Inductors_G:BalunCoreChoke" H 7000 1575 50  0001 C CNN
 F 3 "" H 7000 1575 50  0001 C CNN
 	1    7000 1575
 	0    -1   -1   0   
@@ -1649,7 +1649,7 @@ U 1 1 5915B28F
 P 5675 1575
 F 0 "L22" V 5750 1650 50  0000 C CNN
 F 1 "Choke" V 5600 1600 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch3.96mm_Friction_Lock" H 5675 1575 50  0001 C CNN
+F 2 "Inductors_G:BalunCoreChoke" H 5675 1575 50  0001 C CNN
 F 3 "" H 5675 1575 50  0001 C CNN
 	1    5675 1575
 	0    -1   -1   0   
@@ -2247,7 +2247,7 @@ U 1 1 591A80A2
 P 6350 2100
 F 0 "L23" V 6300 2100 50  0000 C CNN
 F 1 "Choke" V 6425 2100 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch3.96mm_Friction_Lock" H 6350 2100 50  0001 C CNN
+F 2 "Inductors_G:BalunCoreChoke" H 6350 2100 50  0001 C CNN
 F 3 "" H 6350 2100 50  0001 C CNN
 	1    6350 2100
 	1    0    0    -1  
@@ -2291,7 +2291,7 @@ U 1 1 591ABD12
 P 5675 1300
 F 0 "L21" V 5625 1300 50  0000 C CNN
 F 1 "Choke" V 5750 1300 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch3.96mm_Friction_Lock" H 5675 1300 50  0001 C CNN
+F 2 "Inductors_G:BalunCoreChoke" H 5675 1300 50  0001 C CNN
 F 3 "" H 5675 1300 50  0001 C CNN
 	1    5675 1300
 	0    1    -1   0   
