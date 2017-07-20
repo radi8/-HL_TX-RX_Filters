@@ -2334,13 +2334,13 @@ R0
 Text Label 7300 3850 0    60   ~ 0
 R1
 Text Label 7300 3950 0    60   ~ 0
-R2
-Text Label 7300 4050 0    60   ~ 0
+I1
+Text Label 7300 4800 0    60   ~ 0
 R3
 Text Label 7300 4150 0    60   ~ 0
-R4
+I3
 Text Label 7300 4250 0    60   ~ 0
-R5
+I4
 Entry Wire Line
 	7600 2375 7700 2275
 Entry Wire Line
@@ -2402,7 +2402,7 @@ U 1 1 591DFCAF
 P 7050 3150
 F 0 "J3" H 7050 3350 50  0000 C CNN
 F 1 "ICSP" H 7050 2950 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x06" H 7050 1950 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_2x03_Pitch2.54mm" H 7050 1950 50  0001 C CNN
 F 3 "" H 7050 1950 50  0001 C CNN
 	1    7050 3150
 	-1   0    0    -1  
@@ -2414,9 +2414,9 @@ Entry Wire Line
 Entry Wire Line
 	7500 3150 7600 3050
 Text Label 7300 3050 0    60   ~ 0
-R4
+I3
 Text Label 7300 3150 0    60   ~ 0
-R5
+I4
 Text Label 7650 2950 0    60   ~ 0
 MISO
 Text Label 7650 3050 0    60   ~ 0
@@ -2428,7 +2428,7 @@ RESET
 Entry Wire Line
 	7500 3550 7600 3450
 Text Label 6650 3150 0    60   ~ 0
-R3
+I2
 $Comp
 L GND #PWR054
 U 1 1 591EDD44
@@ -2740,7 +2740,7 @@ U 1 1 5966FA11
 P 1075 2125
 F 0 "J1" V 1075 2275 50  0000 C CNN
 F 1 "To Antenna" V 1175 2125 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x02" H 1075 2125 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 1075 2125 50  0001 C CNN
 F 3 "" H 1075 2125 50  0001 C CNN
 	1    1075 2125
 	0    -1   -1   0   
@@ -2751,7 +2751,7 @@ U 1 1 5967049A
 P 5300 2400
 F 0 "J2" V 5300 2550 50  0000 C CNN
 F 1 "From Tx" V 5400 2400 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x02" H 5300 2400 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 5300 2400 50  0001 C CNN
 F 3 "" H 5300 2400 50  0001 C CNN
 	1    5300 2400
 	0    1    1    0   
@@ -2773,7 +2773,7 @@ U 1 1 596713D0
 P 8150 3100
 F 0 "J6" V 8150 3250 50  0000 C CNN
 F 1 "To Rx in" V 8250 3100 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x02" H 8150 3100 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 8150 3100 50  0001 C CNN
 F 3 "" H 8150 3100 50  0001 C CNN
 	1    8150 3100
 	0    1    1    0   
@@ -3530,7 +3530,7 @@ Wire Wire Line
 Wire Wire Line
 	8075 1000 7700 1000
 Wire Bus Line
-	7600 1100 7600 4350
+	7600 1100 7600 4800
 Wire Wire Line
 	7300 3750 7500 3750
 Wire Wire Line
@@ -3639,7 +3639,7 @@ Wire Wire Line
 Wire Wire Line
 	2900 900  3125 900 
 Wire Bus Line
-	5700 2675 7500 2675
+	5000 2675 7500 2675
 Wire Wire Line
 	7900 5400 7900 5300
 Wire Wire Line
@@ -3816,7 +3816,7 @@ U 1 1 5967F9A2
 P 7900 5050
 F 0 "J5" H 7900 5200 50  0000 C CNN
 F 1 "SCL SDA" V 8000 5050 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x02" H 7900 5050 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 7900 5050 50  0001 C CNN
 F 3 "" H 7900 5050 50  0001 C CNN
 	1    7900 5050
 	1    0    0    -1  
@@ -3825,25 +3825,14 @@ Wire Wire Line
 	7300 5000 7700 5000
 Wire Wire Line
 	7300 5100 7700 5100
-$Comp
-L CONN_01X04 J4
-U 1 1 596806D9
-P 7575 4750
-F 0 "J4" H 7575 5000 50  0000 C CNN
-F 1 "Data In" V 7675 4750 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x04" H 7575 4750 50  0001 C CNN
-F 3 "" H 7575 4750 50  0001 C CNN
-	1    7575 4750
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
-	7300 4600 7375 4600
+	7300 4600 7500 4600
 Wire Wire Line
-	7300 4700 7375 4700
+	7300 4700 7500 4700
 Wire Wire Line
-	7300 4800 7375 4800
+	7300 4800 7500 4800
 Wire Wire Line
-	7300 4900 7375 4900
+	7300 4900 7500 4900
 Wire Wire Line
 	7600 5200 7600 5300
 Connection ~ 8525 6150
@@ -4088,4 +4077,37 @@ F 3 "" H 3250 7225 50  0001 C CNN
 $EndComp
 Connection ~ 3250 6925
 Connection ~ 3300 6925
+Entry Bus Bus
+	4900 2575 5000 2675
+Entry Wire Line
+	7500 4900 7600 4800
+Entry Wire Line
+	7500 4800 7600 4700
+Entry Wire Line
+	7500 4700 7600 4600
+Entry Wire Line
+	7500 4600 7600 4500
+Text Label 7300 4600 0    60   ~ 0
+R5
+Text Label 7300 4700 0    60   ~ 0
+R4
+Text Label 7300 4050 0    60   ~ 0
+I2
+Text Label 7300 4900 0    60   ~ 0
+R2
+$Comp
+L CONN_01X01 J4
+U 1 1 59718308
+P 7900 6450
+F 0 "J4" H 7900 6550 50  0000 C CNN
+F 1 "Input1" V 8000 6450 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x01_Pitch2.54mm" H 7900 6450 50  0001 C CNN
+F 3 "" H 7900 6450 50  0001 C CNN
+	1    7900 6450
+	1    0    0    -1  
+$EndComp
+Entry Wire Line
+	7600 6350 7700 6450
+Text Label 7700 6450 3    60   ~ 0
+I1
 $EndSCHEMATC
