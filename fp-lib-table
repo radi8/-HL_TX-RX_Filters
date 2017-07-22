@@ -1,3 +1,4 @@
 (fp_lib_table
   (lib (name Inductors_G)(type KiCad)(uri /home/gvj/kicad_sources/gj-repos/Inductors_G.pretty)(options "")(descr ""))
+  (lib (name Connectors_G)(type KiCad)(uri /home/gvj/kicad_sources/gj-repos/Connectors_G.pretty)(options "")(descr ""))
 )
