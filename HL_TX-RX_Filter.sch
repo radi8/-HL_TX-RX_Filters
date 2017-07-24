@@ -2219,17 +2219,17 @@ Entry Wire Line
 Entry Wire Line
 	7500 6050 7600 6150
 Text Label 7300 5550 0    60   ~ 0
-T0
+I4
 Text Label 7300 5650 0    60   ~ 0
-T17
+I3
 Text Label 7300 5750 0    60   ~ 0
-T30
+I2
 Text Label 7300 5850 0    60   ~ 0
-T40
+Tptt
 Text Label 7300 5950 0    60   ~ 0
-T80
+R5
 Text Label 7300 6050 0    60   ~ 0
-T160
+R4
 $Comp
 L R R25
 U 1 1 591A7757
@@ -2328,17 +2328,17 @@ Entry Wire Line
 Entry Wire Line
 	7500 4050 7600 3950
 Text Label 7300 3750 0    60   ~ 0
-R0
-Text Label 7300 3850 0    60   ~ 0
-R1
-Text Label 7300 3950 0    60   ~ 0
-I1
-Text Label 7300 4800 0    60   ~ 0
 R3
+Text Label 7300 3850 0    60   ~ 0
+R2
+Text Label 7300 3950 0    60   ~ 0
+R0
+Text Label 7300 4800 0    60   ~ 0
+T80
 Text Label 7300 4150 0    60   ~ 0
-I3
+T0
 Text Label 7300 4250 0    60   ~ 0
-I4
+T17
 Entry Wire Line
 	7600 2375 7700 2275
 Entry Wire Line
@@ -2401,9 +2401,9 @@ Entry Wire Line
 Entry Wire Line
 	7500 3150 7600 3050
 Text Label 7300 3050 0    60   ~ 0
-I3
+T0
 Text Label 7300 3150 0    60   ~ 0
-I4
+T17
 Text Label 7650 2950 0    60   ~ 0
 MISO
 Text Label 7650 3050 0    60   ~ 0
@@ -2415,7 +2415,7 @@ RESET
 Entry Wire Line
 	7500 3550 7600 3450
 Text Label 6650 3150 0    60   ~ 0
-I2
+R1
 $Comp
 L GND #PWR054
 U 1 1 591EDD44
@@ -2672,7 +2672,7 @@ Entry Wire Line
 Entry Wire Line
 	7500 4450 7600 4350
 Text Label 7300 4350 0    60   ~ 0
-Tptt
+I1
 Text Label 7300 4450 0    60   ~ 0
 Rptt
 Text Label 5600 2575 0    60   ~ 0
@@ -4052,27 +4052,16 @@ Entry Wire Line
 Entry Wire Line
 	7500 4600 7600 4500
 Text Label 7300 4600 0    60   ~ 0
-R5
+T30
 Text Label 7300 4700 0    60   ~ 0
-R4
+T40
 Text Label 7300 4050 0    60   ~ 0
-I2
+R1
 Text Label 7300 4900 0    60   ~ 0
-R2
-$Comp
-L CONN_01X01 J9
-U 1 1 59718308
-P 7900 6450
-F 0 "J9" H 7900 6550 50  0000 C CNN
-F 1 "Input1" V 8000 6450 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x01_Pitch2.54mm" H 7900 6450 50  0001 C CNN
-F 3 "" H 7900 6450 50  0001 C CNN
-	1    7900 6450
-	1    0    0    -1  
-$EndComp
+T160
 Entry Wire Line
-	7600 6350 7700 6450
-Text Label 7700 6450 3    60   ~ 0
+	7025 6350 7125 6450
+Text Label 7125 6450 0    60   ~ 0
 I1
 $Comp
 L R R3
@@ -4239,4 +4228,35 @@ Connection ~ 1950 7325
 Wire Wire Line
 	4550 1125 4550 6625
 Connection ~ 4550 1125
+Text Label 7300 5000 0    60   ~ 0
+SDA
+Text Label 7300 5100 0    60   ~ 0
+SCL
+Text Label 7300 5350 0    60   ~ 0
+IO_1
+Text Label 7300 5450 0    60   ~ 0
+IO_2
+$Comp
+L CONN_01X04 J9
+U 1 1 5975A6E8
+P 7275 6650
+F 0 "J9" H 7275 6900 50  0000 C CNN
+F 1 "CONN_01X04" V 7375 6650 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x04_Pitch2.54mm" H 7275 6650 50  0001 C CNN
+F 3 "" H 7275 6650 50  0001 C CNN
+	1    7275 6650
+	0    -1   1    0   
+$EndComp
+Text Label 7225 6450 0    60   ~ 0
+I2
+Text Label 7325 6450 0    60   ~ 0
+I3
+Text Label 7425 6450 0    60   ~ 0
+I4
+Entry Wire Line
+	7125 6350 7225 6450
+Entry Wire Line
+	7225 6350 7325 6450
+Entry Wire Line
+	7325 6350 7425 6450
 $EndSCHEMATC
