@@ -3188,7 +3188,7 @@ T160
 Entry Wire Line
 	7025 6350 7125 6450
 Text Label 7125 6450 0    60   ~ 0
-I1
+I4
 $Comp
 L R R3
 U 1 1 59736AD2
@@ -3317,11 +3317,11 @@ SDA
 Text Label 7300 5100 0    60   ~ 0
 SCL
 Text Label 7225 6450 0    60   ~ 0
-I2
-Text Label 7325 6450 0    60   ~ 0
 I3
+Text Label 7325 6450 0    60   ~ 0
+I2
 Text Label 7425 6450 0    60   ~ 0
-I4
+I1
 Entry Wire Line
 	7125 6350 7225 6450
 Entry Wire Line
@@ -4313,7 +4313,7 @@ U 1 1 597997FE
 P 7900 5000
 F 0 "J9" H 7900 5200 50  0000 C CNN
 F 1 "SCL SDA" V 8000 4950 50  0000 C CNN
-F 2 "" H 7900 5000 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm" H 7900 5000 50  0001 C CNN
 F 3 "" H 7900 5000 50  0001 C CNN
 	1    7900 5000
 	1    0    0    -1  
