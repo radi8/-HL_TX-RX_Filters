@@ -1,4 +1,4 @@
-update=Mon 31 Jul 2017 00:08:38 NZST
+update=Wed 02 Aug 2017 09:46:30 NZST
 version=1
 last_client=kicad
 [pcbnew]
