@@ -384,7 +384,7 @@ F 1 "34t" V 3825 6625 50  0000 C CNN
 F 2 "Inductors_G:Toroid_T37_Vertical" H 3750 6625 50  0001 C CNN
 F 3 "" H 3750 6625 50  0001 C CNN
 	1    3750 6625
-	0    -1   -1   0   
+	0    -1   1    0   
 $EndComp
 $Comp
 L C C39
@@ -604,7 +604,7 @@ F 1 "19t" V 3825 5525 50  0000 C CNN
 F 2 "Inductors_G:Toroid_T37_Vertical" H 3750 5525 50  0001 C CNN
 F 3 "" H 3750 5525 50  0001 C CNN
 	1    3750 5525
-	0    -1   -1   0   
+	0    -1   1    0   
 $EndComp
 $Comp
 L C C38
@@ -780,7 +780,7 @@ F 1 "15t" V 3825 4425 50  0000 C CNN
 F 2 "Inductors_G:Toroid_T37_Vertical" H 3750 4425 50  0001 C CNN
 F 3 "" H 3750 4425 50  0001 C CNN
 	1    3750 4425
-	0    -1   -1   0   
+	0    -1   1    0   
 $EndComp
 $Comp
 L C C37
@@ -956,7 +956,7 @@ F 1 "12t" V 3825 3325 50  0000 C CNN
 F 2 "Inductors_G:Toroid_T37_Vertical" H 3750 3325 50  0001 C CNN
 F 3 "" H 3750 3325 50  0001 C CNN
 	1    3750 3325
-	0    -1   -1   0   
+	0    -1   1    0   
 $EndComp
 $Comp
 L C C36
@@ -1132,7 +1132,7 @@ F 1 "11t" V 3825 2225 50  0000 C CNN
 F 2 "Inductors_G:Toroid_T37_Vertical" H 3750 2225 50  0001 C CNN
 F 3 "" H 3750 2225 50  0001 C CNN
 	1    3750 2225
-	0    -1   -1   0   
+	0    -1   1    0   
 $EndComp
 $Comp
 L C C35
@@ -1381,7 +1381,7 @@ L C C2
 U 1 1 58F03CB6
 P 825 3950
 F 0 "C2" V 900 4050 50  0000 L CNN
-F 1 "78pF" V 900 3700 50  0000 L CNN
+F 1 "10pF" V 900 3700 50  0000 L CNN
 F 2 "Capacitors_SMD:C_1206_HandSoldering" H 863 3800 50  0001 C CNN
 F 3 "" H 825 3950 50  0001 C CNN
 	1    825  3950
@@ -1392,7 +1392,7 @@ L C C5
 U 1 1 58F03CC2
 P 1175 4225
 F 0 "C5" H 1025 4325 50  0000 L CNN
-F 1 "10pF" H 1200 4125 50  0000 L CNN
+F 1 "78pF" H 1200 4125 50  0000 L CNN
 F 2 "Capacitors_SMD:C_1206_HandSoldering" H 1213 4075 50  0001 C CNN
 F 3 "" H 1175 4225 50  0001 C CNN
 	1    1175 4225
