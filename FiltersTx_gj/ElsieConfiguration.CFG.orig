@@ -1,9 +1,13 @@
 * Elsie Configuration File
 
-* 11/02/2018 2:22:54 p.m.
+<<<<<<< Updated upstream
+* 31/08/2017 12:08:47 a.m.
+=======
+* 30/08/2017 10:39:17 p.m.
+>>>>>>> Stashed changes
 
 Capacitor Q values: 1000 
-EnglishMetric: 1 
+EnglishMetric: 2 
 Inductor Q values: 140 
 Input termination: 50 
 Linear or log: 2 
@@ -11,11 +15,11 @@ Number of plot X steps: 10
 Number of plot Y steps: 6 
 Number of test freq steps: 1000 
 Plot delay top: 5E-08 
-Plot impedance top: 600 
+Plot impedance top: 623.02 
 Plot loss bottom:-60 
 Rstandard: 50 
 Starting test freq: 1000000 
-Stopping test freq: 6E+07 
+Stopping test freq: 1E+08 
 Plot VSWR top: 1.6 
 Smith aspect ratio: 0.75 
 Plot data line width: 2 
