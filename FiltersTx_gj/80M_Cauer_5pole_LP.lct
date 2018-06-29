@@ -1,10 +1,10 @@
 Elsie circuit file 712073300
 80 Metre 5 pole Cauer Lo Pass Filter with Standard Capacitors
-5/04/2017 3:59:21 p.m. 
+29/06/2018 12:14:09 p.m. 
 * Added information:
  
 * Family, order, stages, topology, Cauer:
- 11  5  5 1 1 
+ 11  5  5  1 
 * Width, center, Fstop normalized:
  4000000  0  1.725 
 * Apass, Astop:
