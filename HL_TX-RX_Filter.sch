@@ -2109,7 +2109,7 @@ F 3 "" H 4900 1350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 6225 2050 2    60   Input ~ 0
-BiasV
++12v
 Text GLabel 7700 1875 2    60   Input ~ 0
 3V3
 Text Label 7275 2275 0    60   ~ 0
@@ -3162,7 +3162,7 @@ F 3 "" H 6000 1775 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 Text GLabel 3775 7400 0    60   Input ~ 0
-BiasV
++12v
 $Comp
 L CONN_01X02 J7
 U 1 1 5981CFA2
@@ -3186,7 +3186,7 @@ F 3 "" H 6150 7325 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 Text GLabel 5725 6425 0    60   Input ~ 0
-BiasV
++12v
 $Comp
 L C C43
 U 1 1 5982474A
@@ -3776,7 +3776,7 @@ Wire Wire Line
 Wire Wire Line
 	2300 2975 4350 2975
 Wire Wire Line
-	1500 7500 4100 7500
+	4100 7500 1500 7500
 Wire Bus Line
 	4450 1975 4450 6375
 Wire Bus Line
@@ -3786,9 +3786,9 @@ Wire Bus Line
 Wire Bus Line
 	6350 7650 6350 6350
 Wire Bus Line
-	7150 6350 6350 6350
+	6350 6350 7150 6350
 Wire Bus Line
-	7150 5450 7150 6350
+	7150 6350 7150 5450
 Connection ~ 6225 600 
 Wire Wire Line
 	8600 5950 8600 5900
@@ -4214,7 +4214,7 @@ Wire Wire Line
 Wire Wire Line
 	5775 1950 5775 2050
 Wire Wire Line
-	5850 2050 5775 2050
+	5775 2050 5850 2050
 Wire Wire Line
 	5850 1775 5850 2300
 Connection ~ 5850 1950
