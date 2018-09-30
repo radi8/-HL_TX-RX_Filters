@@ -1,0 +1,292 @@
+Info: Backing up file "/home/gvj/Kicad/Projects/HL_TX-RX_Filters/sym-lib-table" to file "/home/gvj/Kicad/Projects/HL_TX-RX_Filters/rescue-backup/sym-lib-table-2018-09-30-22-53-34".
+Info: Backing up file "/home/gvj/Kicad/Projects/HL_TX-RX_Filters/HL_TX-RX_Filter.sch" to file "/home/gvj/Kicad/Projects/HL_TX-RX_Filters/rescue-backup/HL_TX-RX_Filter-2018-09-30-22-53-34.sch".
+Info: Backing up file "/home/gvj/Kicad/Projects/HL_TX-RX_Filters/HL_TX-RX_Filter.pro" to file "/home/gvj/Kicad/Projects/HL_TX-RX_Filters/rescue-backup/HL_TX-RX_Filter-2018-09-30-22-53-34.pro".
+Info: Backing up file "/home/gvj/Kicad/Projects/HL_TX-RX_Filters/HL_TX-RX_Filter-cache.lib" to file "/home/gvj/Kicad/Projects/HL_TX-RX_Filters/rescue-backup/HL_TX-RX_Filter-cache-2018-09-30-22-53-34.lib".
+Info: Backing up file "/home/gvj/Kicad/Projects/HL_TX-RX_Filters/HL_TX-RX_Filter-rescue.lib" to file "/home/gvj/Kicad/Projects/HL_TX-RX_Filters/rescue-backup/HL_TX-RX_Filter-rescue-2018-09-30-22-53-34.lib".
+Info: Backing up file "/home/gvj/Kicad/Projects/HL_TX-RX_Filters/HL_TX-RX_Filter-rescue.dcm" to file "/home/gvj/Kicad/Projects/HL_TX-RX_Filters/rescue-backup/HL_TX-RX_Filter-rescue-2018-09-30-22-53-34.dcm".
+Info: Adding library "HL_TX-RX_Filter-rescue", file "${MYPRJ}/HL_TX-RX_Filters/HL_TX-RX_Filter-rescue.lib" to project symbol library table.
+Symbol "PE4259" mapped to symbol library "HL_TX-RX_Filter-rescue".
+Symbol "PE4259" mapped to symbol library "HL_TX-RX_Filter-rescue".
+Symbol "C" mapped to symbol library "HL_TX-RX_Filter-rescue".
+Symbol "C" mapped to symbol library "HL_TX-RX_Filter-rescue".
+Symbol "C" mapped to symbol library "HL_TX-RX_Filter-rescue".
+Symbol "L" mapped to symbol library "HL_TX-RX_Filter-rescue".
+Symbol "L" mapped to symbol library "HL_TX-RX_Filter-rescue".
+Symbol "C" mapped to symbol library "HL_TX-RX_Filter-rescue".
+Symbol "C" mapped to symbol library "HL_TX-RX_Filter-rescue".
+Symbol "GND" mapped to symbol library "power".
+Symbol "GND" mapped to symbol library "power".
+Symbol "GND" mapped to symbol library "power".
+Symbol "GND" mapped to symbol library "power".
+Symbol "C" mapped to symbol library "HL_TX-RX_Filter-rescue".
+Symbol "L" mapped to symbol library "HL_TX-RX_Filter-rescue".
+Symbol "C" mapped to symbol library "HL_TX-RX_Filter-rescue".
+Symbol "GND" mapped to symbol library "power".
+Symbol "PE4259" mapped to symbol library "HL_TX-RX_Filter-rescue".
+Symbol "C" mapped to symbol library "HL_TX-RX_Filter-rescue".
+Symbol "C" mapped to symbol library "HL_TX-RX_Filter-rescue".
+Symbol "L" mapped to symbol library "HL_TX-RX_Filter-rescue".
+Symbol "L" mapped to symbol library "HL_TX-RX_Filter-rescue".
+Symbol "C" mapped to symbol library "HL_TX-RX_Filter-rescue".
+Symbol "C" mapped to symbol library "HL_TX-RX_Filter-rescue".
+Symbol "GND" mapped to symbol library "power".
+Symbol "GND" mapped to symbol library "power".
+Symbol "GND" mapped to symbol library "power".
+Symbol "C" mapped to symbol library "HL_TX-RX_Filter-rescue".
+Symbol "PE4259" mapped to symbol library "HL_TX-RX_Filter-rescue".
+Symbol "GND" mapped to symbol library "power".
+Symbol "L" mapped to symbol library "HL_TX-RX_Filter-rescue".
+Symbol "C" mapped to symbol library "HL_TX-RX_Filter-rescue".
+Symbol "GND" mapped to symbol library "power".
+Symbol "C" mapped to symbol library "HL_TX-RX_Filter-rescue".
+Symbol "L" mapped to symbol library "HL_TX-RX_Filter-rescue".
+Symbol "C" mapped to symbol library "HL_TX-RX_Filter-rescue".
+Symbol "GND" mapped to symbol library "power".
+Symbol "C" mapped to symbol library "HL_TX-RX_Filter-rescue".
+Symbol "C" mapped to symbol library "HL_TX-RX_Filter-rescue".
+Symbol "GND" mapped to symbol library "power".
+Symbol "D" mapped to symbol library "HL_TX-RX_Filter-rescue".
+Symbol "D" mapped to symbol library "HL_TX-RX_Filter-rescue".
+Symbol "L" mapped to symbol library "HL_TX-RX_Filter-rescue".
+Symbol "Q_NMOS_GSD" mapped to symbol library "HL_TX-RX_Filter-rescue".
+Symbol "GND" mapped to symbol library "power".
+Warning: No symbol "R" found in symbol library table.
+Warning: No symbol "R" found in symbol library table.
+Warning: No symbol "R" found in symbol library table.
+Symbol "L" mapped to symbol library "HL_TX-RX_Filter-rescue".
+Symbol "L" mapped to symbol library "HL_TX-RX_Filter-rescue".
+Symbol "L" mapped to symbol library "HL_TX-RX_Filter-rescue".
+Symbol "C" mapped to symbol library "HL_TX-RX_Filter-rescue".
+Symbol "GND" mapped to symbol library "power".
+Symbol "C" mapped to symbol library "HL_TX-RX_Filter-rescue".
+Symbol "L" mapped to symbol library "HL_TX-RX_Filter-rescue".
+Symbol "C" mapped to symbol library "HL_TX-RX_Filter-rescue".
+Symbol "GND" mapped to symbol library "power".
+Symbol "C" mapped to symbol library "HL_TX-RX_Filter-rescue".
+Symbol "C" mapped to symbol library "HL_TX-RX_Filter-rescue".
+Symbol "GND" mapped to symbol library "power".
+Symbol "D" mapped to symbol library "HL_TX-RX_Filter-rescue".
+Symbol "D" mapped to symbol library "HL_TX-RX_Filter-rescue".
+Symbol "L" mapped to symbol library "HL_TX-RX_Filter-rescue".
+Symbol "Q_NMOS_GSD" mapped to symbol library "HL_TX-RX_Filter-rescue".
+Symbol "GND" mapped to symbol library "power".
+Warning: No symbol "R" found in symbol library table.
+Symbol "L" mapped to symbol library "HL_TX-RX_Filter-rescue".
+Symbol "C" mapped to symbol library "HL_TX-RX_Filter-rescue".
+Symbol "GND" mapped to symbol library "power".
+Symbol "C" mapped to symbol library "HL_TX-RX_Filter-rescue".
+Symbol "L" mapped to symbol library "HL_TX-RX_Filter-rescue".
+Symbol "C" mapped to symbol library "HL_TX-RX_Filter-rescue".
+Symbol "GND" mapped to symbol library "power".
+Symbol "C" mapped to symbol library "HL_TX-RX_Filter-rescue".
+Symbol "C" mapped to symbol library "HL_TX-RX_Filter-rescue".
+Symbol "GND" mapped to symbol library "power".
+Symbol "D" mapped to symbol library "HL_TX-RX_Filter-rescue".
+Symbol "D" mapped to symbol library "HL_TX-RX_Filter-rescue".
+Symbol "L" mapped to symbol library "HL_TX-RX_Filter-rescue".
+Symbol "Q_NMOS_GSD" mapped to symbol library "HL_TX-RX_Filter-rescue".
+Symbol "GND" mapped to symbol library "power".
+Warning: No symbol "R" found in symbol library table.
+Symbol "L" mapped to symbol library "HL_TX-RX_Filter-rescue".
+Symbol "C" mapped to symbol library "HL_TX-RX_Filter-rescue".
+Symbol "GND" mapped to symbol library "power".
+Symbol "C" mapped to symbol library "HL_TX-RX_Filter-rescue".
+Symbol "L" mapped to symbol library "HL_TX-RX_Filter-rescue".
+Symbol "C" mapped to symbol library "HL_TX-RX_Filter-rescue".
+Symbol "GND" mapped to symbol library "power".
+Symbol "C" mapped to symbol library "HL_TX-RX_Filter-rescue".
+Symbol "C" mapped to symbol library "HL_TX-RX_Filter-rescue".
+Symbol "GND" mapped to symbol library "power".
+Symbol "D" mapped to symbol library "HL_TX-RX_Filter-rescue".
+Symbol "D" mapped to symbol library "HL_TX-RX_Filter-rescue".
+Symbol "L" mapped to symbol library "HL_TX-RX_Filter-rescue".
+Symbol "Q_NMOS_GSD" mapped to symbol library "HL_TX-RX_Filter-rescue".
+Symbol "GND" mapped to symbol library "power".
+Warning: No symbol "R" found in symbol library table.
+Symbol "L" mapped to symbol library "HL_TX-RX_Filter-rescue".
+Symbol "C" mapped to symbol library "HL_TX-RX_Filter-rescue".
+Symbol "GND" mapped to symbol library "power".
+Symbol "C" mapped to symbol library "HL_TX-RX_Filter-rescue".
+Symbol "L" mapped to symbol library "HL_TX-RX_Filter-rescue".
+Symbol "C" mapped to symbol library "HL_TX-RX_Filter-rescue".
+Symbol "GND" mapped to symbol library "power".
+Symbol "C" mapped to symbol library "HL_TX-RX_Filter-rescue".
+Symbol "C" mapped to symbol library "HL_TX-RX_Filter-rescue".
+Symbol "GND" mapped to symbol library "power".
+Symbol "D" mapped to symbol library "HL_TX-RX_Filter-rescue".
+Symbol "D" mapped to symbol library "HL_TX-RX_Filter-rescue".
+Symbol "L" mapped to symbol library "HL_TX-RX_Filter-rescue".
+Symbol "Q_NMOS_GSD" mapped to symbol library "HL_TX-RX_Filter-rescue".
+Symbol "GND" mapped to symbol library "power".
+Warning: No symbol "R" found in symbol library table.
+Symbol "D" mapped to symbol library "HL_TX-RX_Filter-rescue".
+Symbol "D" mapped to symbol library "HL_TX-RX_Filter-rescue".
+Symbol "L" mapped to symbol library "HL_TX-RX_Filter-rescue".
+Symbol "Q_NMOS_GSD" mapped to symbol library "HL_TX-RX_Filter-rescue".
+Symbol "GND" mapped to symbol library "power".
+Warning: No symbol "R" found in symbol library table.
+Symbol "ATMEGA328-AU" mapped to symbol library "HL_TX-RX_Filter-rescue".
+Symbol "C" mapped to symbol library "HL_TX-RX_Filter-rescue".
+Symbol "GND" mapped to symbol library "power".
+Symbol "GND" mapped to symbol library "power".
+Symbol "L" mapped to symbol library "HL_TX-RX_Filter-rescue".
+Symbol "Q_NMOS_GSD" mapped to symbol library "HL_TX-RX_Filter-rescue".
+Symbol "GND" mapped to symbol library "power".
+Symbol "D" mapped to symbol library "HL_TX-RX_Filter-rescue".
+Symbol "C" mapped to symbol library "HL_TX-RX_Filter-rescue".
+Warning: No symbol "R" found in symbol library table.
+Symbol "L" mapped to symbol library "HL_TX-RX_Filter-rescue".
+Symbol "Q_NMOS_GSD" mapped to symbol library "HL_TX-RX_Filter-rescue".
+Symbol "GND" mapped to symbol library "power".
+Symbol "D" mapped to symbol library "HL_TX-RX_Filter-rescue".
+Warning: No symbol "R" found in symbol library table.
+Symbol "PE4259" mapped to symbol library "HL_TX-RX_Filter-rescue".
+Symbol "C" mapped to symbol library "HL_TX-RX_Filter-rescue".
+Symbol "C" mapped to symbol library "HL_TX-RX_Filter-rescue".
+Symbol "L" mapped to symbol library "HL_TX-RX_Filter-rescue".
+Symbol "L" mapped to symbol library "HL_TX-RX_Filter-rescue".
+Symbol "C" mapped to symbol library "HL_TX-RX_Filter-rescue".
+Symbol "C" mapped to symbol library "HL_TX-RX_Filter-rescue".
+Symbol "GND" mapped to symbol library "power".
+Symbol "GND" mapped to symbol library "power".
+Symbol "GND" mapped to symbol library "power".
+Symbol "C" mapped to symbol library "HL_TX-RX_Filter-rescue".
+Symbol "PE4259" mapped to symbol library "HL_TX-RX_Filter-rescue".
+Symbol "GND" mapped to symbol library "power".
+Symbol "PE4259" mapped to symbol library "HL_TX-RX_Filter-rescue".
+Symbol "C" mapped to symbol library "HL_TX-RX_Filter-rescue".
+Symbol "C" mapped to symbol library "HL_TX-RX_Filter-rescue".
+Symbol "L" mapped to symbol library "HL_TX-RX_Filter-rescue".
+Symbol "L" mapped to symbol library "HL_TX-RX_Filter-rescue".
+Symbol "C" mapped to symbol library "HL_TX-RX_Filter-rescue".
+Symbol "C" mapped to symbol library "HL_TX-RX_Filter-rescue".
+Symbol "GND" mapped to symbol library "power".
+Symbol "GND" mapped to symbol library "power".
+Symbol "C" mapped to symbol library "HL_TX-RX_Filter-rescue".
+Symbol "PE4259" mapped to symbol library "HL_TX-RX_Filter-rescue".
+Symbol "GND" mapped to symbol library "power".
+Symbol "PE4259" mapped to symbol library "HL_TX-RX_Filter-rescue".
+Symbol "C" mapped to symbol library "HL_TX-RX_Filter-rescue".
+Symbol "C" mapped to symbol library "HL_TX-RX_Filter-rescue".
+Symbol "L" mapped to symbol library "HL_TX-RX_Filter-rescue".
+Symbol "L" mapped to symbol library "HL_TX-RX_Filter-rescue".
+Symbol "C" mapped to symbol library "HL_TX-RX_Filter-rescue".
+Symbol "C" mapped to symbol library "HL_TX-RX_Filter-rescue".
+Symbol "GND" mapped to symbol library "power".
+Symbol "GND" mapped to symbol library "power".
+Symbol "GND" mapped to symbol library "power".
+Symbol "C" mapped to symbol library "HL_TX-RX_Filter-rescue".
+Symbol "PE4259" mapped to symbol library "HL_TX-RX_Filter-rescue".
+Symbol "GND" mapped to symbol library "power".
+Symbol "PE4259" mapped to symbol library "HL_TX-RX_Filter-rescue".
+Symbol "GND" mapped to symbol library "power".
+Symbol "PWR_FLAG" mapped to symbol library "power".
+Warning: No symbol "R" found in symbol library table.
+Symbol "L" mapped to symbol library "HL_TX-RX_Filter-rescue".
+Symbol "C" mapped to symbol library "HL_TX-RX_Filter-rescue".
+Symbol "C" mapped to symbol library "HL_TX-RX_Filter-rescue".
+Symbol "CONN_02X03" mapped to symbol library "HL_TX-RX_Filter-rescue".
+Symbol "GND" mapped to symbol library "power".
+Warning: No symbol "R" found in symbol library table.
+Symbol "GND" mapped to symbol library "power".
+Symbol "C" mapped to symbol library "HL_TX-RX_Filter-rescue".
+Symbol "GND" mapped to symbol library "power".
+Symbol "CP1" mapped to symbol library "HL_TX-RX_Filter-rescue".
+Symbol "CP1" mapped to symbol library "HL_TX-RX_Filter-rescue".
+Symbol "GND" mapped to symbol library "power".
+Symbol "GND" mapped to symbol library "power".
+Symbol "LED" mapped to symbol library "HL_TX-RX_Filter-rescue".
+Warning: No symbol "R" found in symbol library table.
+Symbol "LED" mapped to symbol library "HL_TX-RX_Filter-rescue".
+Warning: No symbol "R" found in symbol library table.
+Symbol "LED" mapped to symbol library "HL_TX-RX_Filter-rescue".
+Warning: No symbol "R" found in symbol library table.
+Symbol "LED" mapped to symbol library "HL_TX-RX_Filter-rescue".
+Warning: No symbol "R" found in symbol library table.
+Symbol "LED" mapped to symbol library "HL_TX-RX_Filter-rescue".
+Warning: No symbol "R" found in symbol library table.
+Symbol "LED" mapped to symbol library "HL_TX-RX_Filter-rescue".
+Warning: No symbol "R" found in symbol library table.
+Symbol "GND" mapped to symbol library "power".
+Symbol "LED" mapped to symbol library "HL_TX-RX_Filter-rescue".
+Warning: No symbol "R" found in symbol library table.
+Symbol "LED" mapped to symbol library "HL_TX-RX_Filter-rescue".
+Warning: No symbol "R" found in symbol library table.
+Symbol "GND" mapped to symbol library "power".
+Symbol "LED" mapped to symbol library "HL_TX-RX_Filter-rescue".
+Warning: No symbol "R" found in symbol library table.
+Symbol "LED" mapped to symbol library "HL_TX-RX_Filter-rescue".
+Warning: No symbol "R" found in symbol library table.
+Symbol "LED" mapped to symbol library "HL_TX-RX_Filter-rescue".
+Warning: No symbol "R" found in symbol library table.
+Symbol "LED" mapped to symbol library "HL_TX-RX_Filter-rescue".
+Warning: No symbol "R" found in symbol library table.
+Symbol "LED" mapped to symbol library "HL_TX-RX_Filter-rescue".
+Warning: No symbol "R" found in symbol library table.
+Symbol "C" mapped to symbol library "HL_TX-RX_Filter-rescue".
+Symbol "GND" mapped to symbol library "power".
+Symbol "C" mapped to symbol library "HL_TX-RX_Filter-rescue".
+Symbol "GND" mapped to symbol library "power".
+Symbol "TEST_1P" mapped to symbol library "HL_TX-RX_Filter-rescue".
+Symbol "TEST_1P" mapped to symbol library "HL_TX-RX_Filter-rescue".
+Symbol "TEST_1P" mapped to symbol library "HL_TX-RX_Filter-rescue".
+Symbol "TEST_1P" mapped to symbol library "HL_TX-RX_Filter-rescue".
+Symbol "GND" mapped to symbol library "power".
+Symbol "GND" mapped to symbol library "power".
+Symbol "GND" mapped to symbol library "power".
+Symbol "GND" mapped to symbol library "power".
+Symbol "C" mapped to symbol library "HL_TX-RX_Filter-rescue".
+Symbol "GND" mapped to symbol library "power".
+Symbol "C" mapped to symbol library "HL_TX-RX_Filter-rescue".
+Symbol "GND" mapped to symbol library "power".
+Symbol "C" mapped to symbol library "HL_TX-RX_Filter-rescue".
+Symbol "GND" mapped to symbol library "power".
+Symbol "C" mapped to symbol library "HL_TX-RX_Filter-rescue".
+Symbol "GND" mapped to symbol library "power".
+Warning: No symbol "R" found in symbol library table.
+Warning: No symbol "R" found in symbol library table.
+Warning: No symbol "R" found in symbol library table.
+Symbol "PWR_FLAG" mapped to symbol library "power".
+Warning: No symbol "R" found in symbol library table.
+Warning: No symbol "R" found in symbol library table.
+Warning: No symbol "R" found in symbol library table.
+Symbol "C" mapped to symbol library "HL_TX-RX_Filter-rescue".
+Symbol "GND" mapped to symbol library "power".
+Symbol "C" mapped to symbol library "HL_TX-RX_Filter-rescue".
+Warning: No symbol "R" found in symbol library table.
+Warning: No symbol "R" found in symbol library table.
+Warning: No symbol "R" found in symbol library table.
+Symbol "CONN_01X02" mapped to symbol library "HL_TX-RX_Filter-rescue".
+Symbol "GND" mapped to symbol library "power".
+Symbol "C" mapped to symbol library "HL_TX-RX_Filter-rescue".
+Symbol "PWR_FLAG" mapped to symbol library "power".
+Symbol "C" mapped to symbol library "HL_TX-RX_Filter-rescue".
+Warning: No symbol "R" found in symbol library table.
+Symbol "GND" mapped to symbol library "power".
+Warning: No symbol "R" found in symbol library table.
+Symbol "GND" mapped to symbol library "power".
+Symbol "L" mapped to symbol library "HL_TX-RX_Filter-rescue".
+Symbol "C" mapped to symbol library "HL_TX-RX_Filter-rescue".
+Symbol "C" mapped to symbol library "HL_TX-RX_Filter-rescue".
+Symbol "L" mapped to symbol library "HL_TX-RX_Filter-rescue".
+Symbol "C" mapped to symbol library "HL_TX-RX_Filter-rescue".
+Symbol "C" mapped to symbol library "HL_TX-RX_Filter-rescue".
+Symbol "GND" mapped to symbol library "power".
+Symbol "C" mapped to symbol library "HL_TX-RX_Filter-rescue".
+Symbol "GND" mapped to symbol library "power".
+Symbol "GND" mapped to symbol library "power".
+Symbol "PE4259" mapped to symbol library "HL_TX-RX_Filter-rescue".
+Symbol "GND" mapped to symbol library "power".
+Symbol "Conn_Coaxial" mapped to symbol library "HL_TX-RX_Filter-rescue".
+Symbol "GND" mapped to symbol library "power".
+Symbol "CONN_01X02" mapped to symbol library "HL_TX-RX_Filter-rescue".
+Symbol "GND" mapped to symbol library "power".
+Symbol "Conn_01x20" mapped to symbol library "HL_TX-RX_Filter-rescue".
+Symbol "D" mapped to symbol library "HL_TX-RX_Filter-rescue".
+Symbol "D" mapped to symbol library "HL_TX-RX_Filter-rescue".
+Symbol "D" mapped to symbol library "HL_TX-RX_Filter-rescue".
+Symbol "D" mapped to symbol library "HL_TX-RX_Filter-rescue".
+Symbol "CONN_01X02" mapped to symbol library "HL_TX-RX_Filter-rescue".
+Symbol "Conn_Coaxial" mapped to symbol library "HL_TX-RX_Filter-rescue".
+Symbol "GND" mapped to symbol library "power".
+Info: Symbol library table mapping complete!
