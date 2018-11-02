@@ -1,3 +1,4 @@
 (sym_lib_table
-  (lib (name HL_TX-RX_Filter-rescue)(type Legacy)(uri ${MYPRJ}/HL_TX-RX_Filters/HL_TX-RX_Filter-rescue.lib)(options "")(descr ""))
+  (lib (name RF_Switch_gj)(type Legacy)(uri /home/gvj/Kicad/AA-repos/library_gj/RF_Switch_gj.lib)(options "")(descr ""))
+  (lib (name HL_TX-RX_Filter-rescue)(type Legacy)(uri ${KIPRJMOD}/HL_TX-RX_Filter-rescue.lib)(options "")(descr ""))
 )
